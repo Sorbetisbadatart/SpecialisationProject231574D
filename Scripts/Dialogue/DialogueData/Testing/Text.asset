@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1436374eaafab23429cbd5f433f1c738, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Hello, this is the first line of dialogue.
+  - This second line is to show a full demonstration of the dialogue system skipping.
+  responses:
+  - responseText: Test Tags
+    dialogueObject: {fileID: 11400000, guid: d2d422475a3cee044a388c6547c5937d, type: 2}
+  - responseText: Speaker Test
+    dialogueObject: {fileID: 11400000, guid: 799a5fee0f1e05d489977273b7ba6e63, type: 2}
+  - responseText: Fight
+    dialogueObject: {fileID: 11400000, guid: 234c7ae97bfc9e248b521a7828483b50, type: 2}
+  portrait:
+  - {fileID: 0}
+  audioClip: []
+  events: []
+  charactername: []
