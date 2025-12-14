@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: DialoguesFileNameGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveDataSO
+  <FileName>k__BackingField: DialoguesFileName
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 78d3d074-01c3-4bfe-a483-912cb0d39a50
+    <Name>k__BackingField: Starting
+    <Text>k__BackingField: Hi welcome to tutorial
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: ca283582-2a72-478f-891c-7e9681c1960e
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 183.2, y: 164.8}
+    <StartConditions>k__BackingField: []
+    <OnDialogueStarted>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueEnded>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueChoiceSelected>k__BackingField:
+      PersistentCalls: []
+  - <ID>k__BackingField: 0ef5bbde-8dd9-497f-a250-d1755e2a0faa
+    <Name>k__BackingField: End1
+    <Text>k__BackingField: you said hi
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 796.8, y: 62.4}
+    <StartConditions>k__BackingField: []
+    <OnDialogueStarted>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueEnded>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueChoiceSelected>k__BackingField:
+      PersistentCalls: []
+  - <ID>k__BackingField: dc9945a3-4a32-4288-aa1d-0b734f67f979
+    <Name>k__BackingField: end2
+    <Text>k__BackingField: you said bye
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 796.8, y: 332}
+    <StartConditions>k__BackingField: []
+    <OnDialogueStarted>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueEnded>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueChoiceSelected>k__BackingField:
+      PersistentCalls: []
+  - <ID>k__BackingField: ca283582-2a72-478f-891c-7e9681c1960e
+    <Name>k__BackingField: choices
+    <Text>k__BackingField: What will u say
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Hi
+      <NodeID>k__BackingField: 0ef5bbde-8dd9-497f-a250-d1755e2a0faa
+    - <Text>k__BackingField: Bye
+      <NodeID>k__BackingField: dc9945a3-4a32-4288-aa1d-0b734f67f979
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 472, y: 152}
+    <StartConditions>k__BackingField: []
+    <OnDialogueStarted>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueEnded>k__BackingField:
+      PersistentCalls: []
+    <OnDialogueChoiceSelected>k__BackingField:
+      PersistentCalls: []
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - Starting
+  - End1
+  - end2
+  - choices
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
